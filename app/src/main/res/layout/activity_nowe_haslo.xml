@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+
+tools:context=".NoweHaslo">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="New password"
+    android:textSize="100px"
+    android:textColor="@color/black"
+    android:layout_alignParentTop = "true"
+    android:layout_centerHorizontal = "true"
+    android:layout_marginTop="450px" />
+
+<EditText
+    android:id="@+id/new_password1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="wpisz hasło"
+    android:textCursorDrawable="@null"
+    android:drawablePadding="5dp"
+    android:inputType="textPassword"
+    android:layout_marginRight="40dp"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="250dp"
+    android:drawableStart="@drawable/lock"
+    android:gravity="start" />
+
+
+    <ImageView
+        android:id="@+id/toggle_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginStart="330dp"
+        android:scaleType="centerCrop"
+        android:onClick="show_pass1"
+        android:clickable="true"
+        android:src="@drawable/eye_off" />
+
+    <EditText
+        android:id="@+id/new_password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="powtórz hasło"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:drawableStart="@drawable/lock"
+        android:gravity="start" />
+    <ImageView
+        android:id="@+id/toggle_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginStart="330dp"
+        android:scaleType="centerCrop"
+        android:onClick="show_pass2"
+        android:clickable="true"
+        android:src="@drawable/eye_off" />
+
+    <EditText
+        android:id="@+id/kod_wpisany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="wpisz kod"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:inputType="text"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="390dp"
+        android:drawableStart="@drawable/key"
+        android:gravity="start" />
+
+
+
+
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/button_new_password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="480dp"
+    android:layout_marginRight="40dp"
+    android:background="@drawable/button_style"
+    android:gravity="center"
+    android:text="REMIND"
+    android:textAllCaps="false"
+    android:textColor="#FFF"
+
+
+    android:textSize="20dp" />
+
+
+</RelativeLayout>

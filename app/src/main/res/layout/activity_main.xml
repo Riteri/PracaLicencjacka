@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fon2"
+    >
+
+
+
+
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="236dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="416dp"
+        android:background="@drawable/btnfon"
+        android:onClick="onClickLogowanie"
+        android:text="Graj"
+
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="236dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="90dp"
+
+
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/btnfon"
+        android:text="Top gracze"
+        android:onClick="openTopUsers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="307dp"
+        android:layout_marginBottom="26dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="FAQ"
+        android:onClick="openFaq"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="wyloguj"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:onClick="wyloguj"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

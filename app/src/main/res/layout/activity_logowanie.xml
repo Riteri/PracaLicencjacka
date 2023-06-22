@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".Logowanie">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="100px"
+        android:textColor="@color/black"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="450px" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:hint="e-mail"
+        android:textCursorDrawable="@null"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/email"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="250dp"
+        android:gravity="start"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:id="@+id/editText_password"
+        android:drawableStart="@drawable/lock"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/toggle_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="330dp"
+        android:layout_marginStart="330dp"
+        android:scaleType="centerCrop"
+        android:onClick="show_pass"
+        android:clickable="true"
+        android:src="@drawable/eye_off" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="480dp"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:background="@drawable/button_style"
+
+
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/register1"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif"
+        android:text="Nie masz konta?"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/register2"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="550dp"
+        android:fontFamily="sans-serif"
+        android:clickable="true"
+        android:text="   zarejestruj się."
+        android:onClick="open_rejestration"
+        android:layout_toEndOf="@+id/register1"
+        android:textColor="#00d9d9"
+        android:textSize="12dp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/zmiana_hasla1"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="100dp"
+        android:fontFamily="sans-serif"
+        android:text="Chcesz zmienić hasło?"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/zmiana_hasla2"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="580dp"
+        android:fontFamily="sans-serif"
+        android:clickable="true"
+        android:text="   Zmień hasło."
+        android:onClick="open_zmiana_hasla"
+        android:layout_toEndOf="@+id/zmiana_hasla1"
+        android:textColor="#00d9d9"
+        android:textSize="12dp"
+        android:focusable="true" />
+
+    <TextView
+        android:id="@+id/remimber"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="sans-serif"
+        android:text="Nie pamiętasz hasła?"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:focusable="true" />
+    <TextView
+        android:id="@+id/remimber1"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:fontFamily="sans-serif"
+        android:text="   Przypomnij"
+        android:textSize="12dp"
+        android:layout_toEndOf="@id/remimber"
+        android:layout_marginTop="370dp"
+        android:textColor="#00d9d9"
+        android:focusable="true"
+        android:clickable="true"
+        android:onClick="open_przypomnienie"
+        />
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="162dp"-->
+    <!--        android:layout_height="107dp"-->
+    <!--        android:layout_alignParentTop="true"-->
+    <!--        android:layout_marginTop="106dp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+
+
+    <!--        android:src="@drawable/logo"-->
+
+    <!--        />-->
+
+
+</RelativeLayout>

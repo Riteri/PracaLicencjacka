@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "355602815122",
+    "firebase_url": "https://game-32787-default-rtdb.firebaseio.com",
+    "project_id": "game-32787",
+    "storage_bucket": "game-32787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:355602815122:android:ec6ca6ef111330a507ee4b",
+        "android_client_info": {
+          "package_name": "com.example.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "355602815122-4qdeucklrv8rhc976dto69c9smmt9bbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6rf9iW4Z0yMlvJ1zV_ZuxfXDkjs1qW48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "355602815122-4qdeucklrv8rhc976dto69c9smmt9bbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

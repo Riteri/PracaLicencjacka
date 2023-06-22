@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Faq">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FAQ:"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Jak działa aplikacja?"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Na początku jeśli nie masz konta musisz się załogować w oknie rejestracji, po zalogowaniu masz możliwość zalogować się i zacząć grę.\n
+ \nW górnym lewym rogu możesz zobaczyć ilość twoich punktów (na początku ich będzie 0). Po zakończeniu rozgrywki możesz zobaczyć sumę swoich punktów w menu w oknie 'Top users'.\n"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jak grać? "
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="147dp"
+                android:text="Musisz wpisać poprawną odpowiedź w pole dla odpowiedzi na czas i  nacisnąć enter. Po nacisnięciu entera na ekranie jest widoczny wynik tej rozgrywki, żeby zacząć nową grę musisz kliknąć na czerwony lub zieliony tekst(tam gdzie jest wynik rozgrywki).\n"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UWAGA!"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Wszystkie odpowiedzi są całkowite, nie ma możliwości wpisania znaków specjalnych, np. kropkę lub przecinek, wszystkie odpowiedzi są w typu 'int'"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Punktacja:"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Za poprawną odpowiedź dostajesz punkty, ilość twoich punktów zależy od wykorzystanego czasu\n00-10 sekund - 10 pkt\n11-20 sekund - 5 pkt\n21-30 sekund - 2pkt\n31 i więcej - 1pkt\n\nZa niepoprawną odpowiedź dostajesz minus 5 pkt"
+                android:textSize="20dp"
+                android:textStyle="italic"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

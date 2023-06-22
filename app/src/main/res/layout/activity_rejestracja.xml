@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    tools:context=".Rejestracja">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="100px"
+        android:textColor="@color/black"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="450px" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="40dp"
+        android:hint="username"
+        android:textCursorDrawable="@null"
+        android:inputType="text"
+        android:drawableStart="@drawable/acc"
+        android:drawablePadding="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="250dp"
+        android:gravity="start"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:inputType="textPassword"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="390dp"
+        android:id="@+id/editText_password"
+        android:drawableStart="@drawable/lock"
+        android:gravity="start" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="e-mail"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:inputType="textEmailAddress"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:id="@+id/editText_email"
+        android:drawableStart="@drawable/email"
+        android:gravity="start" />
+
+    <ImageView
+        android:id="@+id/toggle_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginStart="330dp"
+        android:scaleType="centerCrop"
+        android:onClick="show_pass"
+        android:clickable="true"
+        android:src="@drawable/eye_off" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:id="@+id/button"
+        android:textAllCaps="false"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="480dp"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:background="@drawable/button_style"
+
+
+        android:gravity="center"/>
+
+
+
+</RelativeLayout>

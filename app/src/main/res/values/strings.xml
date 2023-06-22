@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">game</string>
+    <string name="scrore">Scrore:</string>
+    <string name="score">Score:</string>
+</resources>

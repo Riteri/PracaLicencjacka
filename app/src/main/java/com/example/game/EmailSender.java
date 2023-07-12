@@ -15,7 +15,7 @@ public class EmailSender {
     private static final String SMTP_SERVER = "smtp.gmail.com";
     private static final String SMTP_PORT = "587";
     private static final String EMAIL = "gavnuq321@gmail.com";
-    private static final String PASSWORD = "ozzbbanellfbsmgu";
+    private static final String PASSWORD = "***";
 
     public static void sendEmail(final String toEmail, final String subject, final String body) {
         Thread thread = new Thread(new Runnable() {

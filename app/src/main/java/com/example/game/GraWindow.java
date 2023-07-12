@@ -397,12 +397,6 @@ public class GraWindow extends AppCompatActivity {
 
         Log.d("test", "gamePhisics: ");
 
-
-
-        // --- tablice z zadaniami dla poziomów trudności 1-10
-        // w przyszlosci bedzie to pobierane z bazy danych lub z pliku
-        // teraz zadania sa testowe. finalne zadania beda zmienione
-
         int poziomTrudnosciZadan = Math.round(Float.parseFloat(lvl));
 
         if (poziomTrudnosciZadan == 1) {

@@ -32,6 +32,7 @@ public class NoweHaslo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nowe_haslo);
+        setTitle("Zmiana hasła");
 
         haslo1 = findViewById(R.id.new_password1);
         haslo2 = findViewById(R.id.new_password2);

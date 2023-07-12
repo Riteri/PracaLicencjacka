@@ -32,6 +32,7 @@ public class Zmiana_hasla extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zmiana_hasla);
+        setTitle("Zmiana hasła");
 
 
         username_zmiana = findViewById(R.id.editText_username_zmiana);

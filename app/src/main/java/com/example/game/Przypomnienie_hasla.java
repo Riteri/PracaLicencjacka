@@ -32,6 +32,7 @@ public class Przypomnienie_hasla extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_przypomnienie_hasla);
+        setTitle("Przypomnienie hasła");
 
         username = findViewById(R.id.editText_username);
         email = findViewById(R.id.editText_email);
